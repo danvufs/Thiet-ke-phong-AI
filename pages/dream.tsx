@@ -82,7 +82,7 @@ const Home: NextPage = () => {
   }
 
   return (
-    <div className="flex max-w-6xl mx-auto flex-col items-center justify-center py-2 min-h-screen">
+    <div className="flex max-w-6xl mx-auto flex-col items-center justify-center py-2 min-h-screen bg-gradient-to-br from-indigo-800 to-gray-800">
       <Head>
         <title>Thiết kế phòng mơ ước</title>
       </Head>
@@ -156,9 +156,8 @@ const Home: NextPage = () => {
                 </div>
               )}
               <div
-                className={`${
-                  restoredLoaded ? "visible mt-6 -ml-8" : "invisible"
-                }`}
+                className={`${restoredLoaded ? "visible mt-6 -ml-8" : "invisible"
+                  }`}
               >
                 {/* <Toggle
                   className={`${restoredLoaded ? "visible mb-6" : "invisible"}`}

@@ -8,22 +8,14 @@ import SquigglyLines from "../components/SquigglyLines";
 
 const Home: NextPage = () => {
   return (
-    <div className="flex max-w-6xl mx-auto flex-col items-center justify-center py-2 min-h-screen">
+    <div className="flex max-w-6xl mx-auto flex-col items-center justify-center py-2 min-h-screen bg-gradient-to-br from-indigo-800 to-gray-800">
+
       <Head>
         <title>Thiết kế phòng bằng trí tuệ nhân tạo-AI</title>
       </Head>
 
       <Header />
-      <main className="flex flex-1 w-full flex-col items-center justify-center text-center px-4 sm:mt-20 mt-20 background-gradient">
-        {/* <a
-          href="https://play.google.com/store/apps/details?id=com.dancargame.test"
-          target="_blank"
-          rel="noreferrer"
-          className="border border-gray-700 rounded-lg py-2 px-4 text-gray-400 text-sm mb-5 transition duration-300 ease-in-out"
-        >
-          Clone and deploy your own with{" "}
-          <span className="text-blue-600">Vercel</span>
-        </a> */}
+      <main className="flex flex-1 w-full flex-col items-center justify-center text-center px-4 sm:mt-20 mt-20">
         <h1 className="mx-auto max-w-4xl font-display text-5xl font-bold tracking-normal text-gray-300 sm:text-7xl">
           Tạo phòng trong mơ{" "}
           <span className="relative whitespace-nowrap text-blue-600">
@@ -33,10 +25,10 @@ const Home: NextPage = () => {
           cho mọi người
         </h1>
         <h2 className="mx-auto mt-12 max-w-xl text-lg sm:text-gray-400  text-gray-500 leading-7">
-        Chụp ảnh phòng của bạn và xem phòng của bạn trông như thế nào theo các chủ đề khác nhau. Miễn phí 100% - sửa sang lại căn phòng của bạn ngay hôm nay!
+          Chụp ảnh phòng của bạn và xem phòng của bạn trông như thế nào theo các chủ đề khác nhau. Miễn phí 100% - sửa sang lại căn phòng của bạn ngay hôm nay!
         </h2>
         <Link
-          className="bg-blue-600 rounded-xl text-white font-medium px-4 py-3 sm:mt-10 mt-8 hover:bg-blue-500 transition"
+          className="bg-blue-600 rounded-xl text-white font-medium px-4 py-3 sm:mt-10 mt-8 hover:bg-blue-500 transition duration-300 ease-in-out transform hover:scale-105"
           href="/dream"
         >
           Tạo phòng trong mơ
@@ -68,7 +60,6 @@ const Home: NextPage = () => {
           </div>
         </div>
       </main>
-      {/* <Testimonials /> */}
       <Footer />
     </div>
   );
