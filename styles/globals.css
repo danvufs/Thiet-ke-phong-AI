@@ -16,4 +16,10 @@
     transform: scale(1);
     pointer-events: none;
   }
+  
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  min-width: max-content;
+}
 }
